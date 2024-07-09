@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-08T13:10:00 IST" name="Master Suite" finished-at="2024-07-08T13:10:20 IST" duration-ms="20319">
+    <groups>
+      <group name="Master">
+        <method signature="TC001_RegisterUser.verifyUserRegistration()[pri:0, instance:testCases.TC001_RegisterUser@7b8233cd]" name="verifyUserRegistration" class="testCases.TC001_RegisterUser"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC001_RegisterUser.verifyUserRegistration()[pri:0, instance:testCases.TC001_RegisterUser@7b8233cd]" name="verifyUserRegistration" class="testCases.TC001_RegisterUser"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-07-08T13:10:00 IST" name="Test" finished-at="2024-07-08T13:10:20 IST" duration-ms="20319">
+      <class name="testCases.TC001_RegisterUser">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_RegisterUser@7b8233cd]" started-at="2024-07-08T13:10:00 IST" name="setup" finished-at="2024-07-08T13:10:06 IST" duration-ms="5969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUserRegistration()[pri:0, instance:testCases.TC001_RegisterUser@7b8233cd]" started-at="2024-07-08T13:10:06 IST" name="verifyUserRegistration" finished-at="2024-07-08T13:10:20 IST" duration-ms="13720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_RegisterUser@7b8233cd]" started-at="2024-07-08T13:10:20 IST" name="tearDown" finished-at="2024-07-08T13:10:20 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_RegisterUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

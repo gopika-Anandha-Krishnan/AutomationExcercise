@@ -1,0 +1,35 @@
+2024-07-08 12:55:06 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\gopika.a\SeleniumUdemy\AutomationExcercise\grouping.xml"
+2024-07-08 12:55:07 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\gopika.a\SeleniumUdemy\AutomationExcercise\grouping.xml
+
+2024-07-08 12:55:20 INFO  TC001_RegisterUser:15 - ***Starting***
+2024-07-08 12:55:20 INFO  TC001_RegisterUser:19 - ***Verify homepage visible***
+2024-07-08 12:55:20 INFO  TC001_RegisterUser:21 - ***Click on Signup***
+2024-07-08 12:55:22 INFO  TC001_RegisterUser:24 - ***Verify new user signup visible***
+2024-07-08 12:55:22 INFO  TC001_RegisterUser:26 - ***Enter name and email***
+2024-07-08 12:55:22 INFO  TC001_RegisterUser:29 - ***Click Signup***
+2024-07-08 12:55:25 INFO  TC001_RegisterUser:32 - ***Fill user details***
+2024-07-08 13:08:09 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\gopika.a\SeleniumUdemy\AutomationExcercise\grouping.xml"
+2024-07-08 13:08:09 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\gopika.a\SeleniumUdemy\AutomationExcercise\grouping.xml
+
+2024-07-08 13:08:16 INFO  TC001_RegisterUser:15 - ***Starting***
+2024-07-08 13:08:16 INFO  TC001_RegisterUser:19 - ***Verify homepage visible***
+2024-07-08 13:08:16 INFO  TC001_RegisterUser:21 - ***Click on Signup***
+2024-07-08 13:08:18 INFO  TC001_RegisterUser:24 - ***Verify new user signup visible***
+2024-07-08 13:08:18 INFO  TC001_RegisterUser:26 - ***Enter name and email***
+2024-07-08 13:08:18 INFO  TC001_RegisterUser:29 - ***Click Signup***
+2024-07-08 13:08:22 INFO  TC001_RegisterUser:32 - ***Fill user details***
+2024-07-08 13:10:00 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\gopika.a\SeleniumUdemy\AutomationExcercise\grouping.xml"
+2024-07-08 13:10:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\gopika.a\SeleniumUdemy\AutomationExcercise\grouping.xml
+
+2024-07-08 13:10:06 INFO  TC001_RegisterUser:15 - ***Starting***
+2024-07-08 13:10:06 INFO  TC001_RegisterUser:19 - ***Verify homepage visible***
+2024-07-08 13:10:06 INFO  TC001_RegisterUser:21 - ***Click on Signup***
+2024-07-08 13:10:08 INFO  TC001_RegisterUser:24 - ***Verify new user signup visible***
+2024-07-08 13:10:08 INFO  TC001_RegisterUser:26 - ***Enter name and email***
+2024-07-08 13:10:09 INFO  TC001_RegisterUser:29 - ***Click Signup***
+2024-07-08 13:10:11 INFO  TC001_RegisterUser:32 - ***Fill user details***
+2024-07-08 13:10:13 INFO  TC001_RegisterUser:50 - ***Verify account creation***
+2024-07-08 13:10:18 INFO  TC001_RegisterUser:55 - ***Verify delete account***
