@@ -15,6 +15,11 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='Signup / Login']") WebElement lnk_signup;
 	
 	
+	@FindBy(xpath="//input[@data-qa='login-email']") WebElement txt_loginEmail;
+	@FindBy(xpath="//input[@placeholder='Password']") WebElement txt_loginPassword;
+	@FindBy(xpath="//button[normalize-space()='Login']") WebElement btn_login;
+	
+	
 	@FindBy(xpath="//li[10]//a[1]") WebElement lnk_loggedInAs;
 	@FindBy(xpath="//a[normalize-space()='Logout']") WebElement lnk_logout;
 	@FindBy(xpath="//a[normalize-space()='Delete Account']") WebElement lnk_deleteAccount;
@@ -31,6 +36,21 @@ public class HomePage extends BasePage{
 			return false;
 		}
 	}
+	public void setLoginEmail(String email)
+	{
+		txt_loginEmail.sendKeys(email);			
+	}
+	
+	public void setLoginPassword(String pswd)
+	{
+		txt_loginPassword.sendKeys(pswd);;			
+	}
+	
+	public void clickLoginButton()
+	{
+		btn_login.click();			
+	}
+	
 	public void clickSignup()
 	{
 		lnk_signup.click();			

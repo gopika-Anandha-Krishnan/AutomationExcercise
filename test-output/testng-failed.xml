@@ -7,19 +7,14 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-      </run>
-    </groups>
     <classes>
-      <class name="testCases.TC001_RegisterUser">
+      <class name="testCases.TC002_DDTLoginTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verify_LoginDDT" invocation-numbers="0 4"/>
           <include name="setup"/>
-          <include name="verifyUserRegistration"/>
         </methods>
-      </class> <!-- testCases.TC001_RegisterUser -->
+      </class> <!-- testCases.TC002_DDTLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
